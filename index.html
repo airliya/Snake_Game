@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>贪吃蛇</title>
+    <style type="text/css">
+        #app{
+            width: 1000px;
+            margin:50px auto;
+        }
+        table,tr,td{
+            border: 1px solid #000;
+            border-collapse:collapse;
+        }
+        td{
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="info1"></h2>
+    <div id="app">
+
+    </div>
+</body>
+<script type="text/javascript" src="js/Game.js"></script>
+<script type="text/javascript" src="js/Snake.js"></script>
+<script type="text/javascript" src="js/Food.js"></script>
+<script type="text/javascript">
+    var game = new Game(); //实例化唯一的中介者
+</script>
+</html>
